@@ -7,6 +7,22 @@ To generate the " .zip " installation file, it is necessary to make a clone of t
 ## Settings
 After the installation, on the bottom of the administration page there is new section - SuiteCRM Click to Call (Asterisk) where the connection with Asterisk server can be configured.
 
+Use information from /etc/asterisk/manager.conf
+
+[general]
+enabled = yes
+port = 5038
+bindaddr = 0.0.0.0
+displayconnects=no ;only effects 1.6+
+
+[admin]
+secret = asterisksecret
+deny=0.0.0.0/0.0.0.0
+permit=127.0.0.1/255.255.255.0
+permit=XX.XX.XX.XX/255.255.255.255
+
+(where XX.XX.XX.XX is CRM server address)
+
 | Option | Description | Example |
 |-|-|-|
 | IP	| Asterisk IP address or URL | 127.0.0.1 |
