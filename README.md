@@ -18,7 +18,7 @@ After the installation, on the bottom of the administration page there is new se
 | Channel out	| local	| local |
 | Channel Our Context |	Context for outgoing calls	| from-internal |
 | Caller ID | Caller ID presented on the phone after click2call |	CRM |
-|Variables |	Variables to use in contexts	| var_extension = $ extension; var_num_llamar = $ numberCall |
+|Variables |	Variables to use in contexts	| var_extension=$extension;var_num_llamar=$numberCall |
 
 In the User configuration screen, the " Asterisk Extension " field has been added where each user can enter their corresponding extension number to make the call.
 
