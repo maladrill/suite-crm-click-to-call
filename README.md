@@ -8,6 +8,7 @@ To generate the " .zip " installation file, it is necessary to make a clone of t
 After the installation, on the bottom of the administration page there is new section - SuiteCRM Click to Call (Asterisk) where the connection with Asterisk server can be configured.
 
 | Option | Description | Example |
+|-|-|-|
 | IP	| Asterisk IP address or URL | 127.0.0.1 |
 | Port |	Asterisk manager port (default 5038 )	| 5038 |
 | User |	Asterisk manager user	| admin |
