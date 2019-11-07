@@ -4,7 +4,7 @@ To install the module, navigate to SuiteCRM administration menu, and in "Module 
 
 To generate the " .zip " installation file, it is necessary to make a clone of the project and zip the code on the first level or it can be downloaded from the attached files in the release " suite-crm-click-to-call.zip "
 
-## Setting
+## Settings
 After the installation, on the bottom of the administration page there is new section - SuiteCRM Click to Call (Asterisk) where the connection with Asterisk server can be configured.
 
 | Option | Description | Example |
@@ -21,7 +21,7 @@ After the installation, on the bottom of the administration page there is new se
 
 In the User configuration screen, the " Asterisk Extension " field has been added where each user can enter their corresponding extension number to make the call.
 
-Use
+## Usage
 All " phone " type fields in any module either in the Detailed View or List View, will have on their right side the phone icon. Clicking it sends the information to the Asterisk server, and user extension starts ringing. When answered the call is dialed and goes to the trunk.
 
 # SuiteCRM Click to Call (Asterisk)
