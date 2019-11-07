@@ -9,7 +9,8 @@ After the installation, on the bottom of the administration page there is new se
 
 Use information from /etc/asterisk/manager.conf
 
-```[general]
+```
+[general]
 enabled = yes
 port = 5038
 bindaddr = 0.0.0.0
@@ -19,7 +20,8 @@ displayconnects=no ;only effects 1.6+
 secret = asterisksecret
 deny=0.0.0.0/0.0.0.0
 permit=127.0.0.1/255.255.255.0
-permit=XX.XX.XX.XX/255.255.255.255```
+permit=XX.XX.XX.XX/255.255.255.255
+```
 
 (where XX.XX.XX.XX is CRM server address)
 
